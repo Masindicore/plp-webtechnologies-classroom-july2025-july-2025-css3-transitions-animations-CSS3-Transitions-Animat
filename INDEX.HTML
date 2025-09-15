@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Red Love Animation</title>
+  <!-- Link external CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="header">
+    <h1>❤️ Red Love Animation ❤️</h1>
+    <p class="subtitle">Click to create beautiful floating hearts</p>
+    
+    <div class="stats">
+      <div class="stat-item" id="hearts-created">Hearts Created: 0</div>
+      <div class="stat-item" id="active-hearts">Active Hearts: 0</div>
+    </div>
+  </div>
+  
+  <div id="love-container"></div>
+  
+  <div class="controls">
+    <button id="love-btn">
+      <span>❤️</span> Generate Love
+    </button>
+    <button class="btn-secondary" id="generate-many">
+      <span>💕</span> Generate Many
+    </button>
+  </div>
+  
+  <div class="instructions">
+    <p>• Click the "Generate Love" button to create hearts</p>
+    <p>• Click inside the container to create a heart at that position</p>
+    <p>• Hover over hearts to make them pop out</p>
+    <p>• Hearts will float upwards and fade away</p>
+  </div>
+  
+  <footer>
+    <p>Created with love and CSS animations ❤️ | Refresh the page to restart</p>
+  </footer>
+
+  <!-- Link external JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
